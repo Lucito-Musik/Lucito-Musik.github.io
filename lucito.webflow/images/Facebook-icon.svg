@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.92" height="65" viewBox="0 0 33.92 65">
+  <defs>
+    <clipPath id="clip-Facebook-icon">
+      <rect width="33.92" height="65"/>
+    </clipPath>
+  </defs>
+  <g id="Facebook-icon" clip-path="url(#clip-Facebook-icon)">
+    <g id="Gruppe_15" data-name="Gruppe 15" transform="translate(-1178.416 -162.811)">
+      <g id="Gruppe_7" data-name="Gruppe 7" transform="translate(1178.415 162.811)">
+        <g id="g138" transform="translate(0)">
+          <path id="path140" d="M1.817.743H7.181V-10.93L-.9-10.94c-11.446,0-16.878,6.812-16.878,16.511v9.187H-26.74V25.85h8.964V54.06H-4.331V25.85H4.632L7.177,14.762H-4.331V7.188c0-3.1,1.693-6.445,6.149-6.445" transform="translate(26.74 10.94)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

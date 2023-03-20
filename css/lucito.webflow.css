@@ -386,6 +386,53 @@ h2 {
   text-decoration: none;
 }
 
+.about-me-section {
+  background-color: #101010;
+}
+
+.about-me-paragraph {
+  width: 50%;
+  height: 100%;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  line-height: 1.7;
+  font-weight: 200;
+  text-align: left;
+}
+
+.about-me-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.about-me-image-wrapper {
+  width: 40%;
+}
+
+.ber-mich-image {
+  width: 100%;
+  height: 100%;
+}
+
+.about-me-heading {
+  text-align: center;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 1.5em;
@@ -435,6 +482,26 @@ h2 {
     padding-bottom: 0px;
     padding-left: 1.7em;
     background-color: transparent;
+  }
+
+  .about-me-paragraph {
+    width: 100%;
+  }
+
+  .about-me-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .about-me-image-wrapper {
+    width: 100%;
+  }
+
+  .ber-mich-image {
+    margin-bottom: 2em;
   }
 }
 
@@ -490,6 +557,10 @@ h2 {
 
   .menu-button.w--open {
     background-color: transparent;
+  }
+
+  .about-me-paragraph {
+    font-size: 0.9rem;
   }
 }
 
@@ -567,6 +638,10 @@ h2 {
   .link {
     color: #fff;
     text-decoration: none;
+  }
+
+  .about-me-paragraph {
+    font-size: 0.8rem;
   }
 }
 
